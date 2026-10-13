@@ -44,7 +44,7 @@ Projeto de portfólio em cibersegurança e desenvolvimento backend, focado em ap
 ## Como rodar o projeto
 
 ```bash
-git clone <link-do-seu-repositorio>
+git clone <https://github.com/noahsvieira/Gateway-de-Email-Seguro->
 cd gateway-email-seguro
 python -m venv .venv
 .venv\Scripts\activate
