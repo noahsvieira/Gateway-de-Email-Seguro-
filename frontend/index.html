@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Comunicação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="cartao">
+    <header class="cabecalho">
+        <h2>Nova Mensagem</h2>
+        <p>Preencha os campos abaixo para enviar o seu e-mail.</p>
+    </header>
+
+    <form id="formularioEmailSeguro" novalidate>
+        <div class="campo">
+            <label for="emailDestino">Para</label>
+            <input type="email" id="emailDestino" placeholder="exemplo@dominio.com" required autocomplete="off">
+        </div>
+
+        <div class="campo">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" placeholder="Digite o assunto" required autocomplete="off">
+        </div>
+
+        <div class="campo">
+            <label for="conteudo">Mensagem</label>
+            <textarea id="conteudo" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+        </div>
+
+        <button type="submit" id="botaoEnviar">Enviar Mensagem</button>
+    </form>
+
+    <div id="caixaAlerta" class="alerta" role="alert"></div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
