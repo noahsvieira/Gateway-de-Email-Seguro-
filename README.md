@@ -1,4 +1,4 @@
-# Secure Mail Gateway 🛡️
+# Secure Mail Gateway 
 
 API própria, construída em Python com FastAPI, focada em **Cibersegurança**, **Arquitetura Defensiva** e **Criptografia de Ponta a Ponta (E2EE)** para o envio e processamento seguro de e-mails corporativos.
 
