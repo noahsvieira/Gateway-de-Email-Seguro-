@@ -66,4 +66,4 @@ Este projeto está sob a licença MIT — sinta-se à vontade para usar como ref
 
 ## Aviso de segurança
 
-Este projeto usa o ambiente sandbox do Asaas, sem movimentação de dinheiro real. Chaves de API e tokens são carregados via variáveis de ambiente (`.env`, não incluído no repositório) e nunca ficam expostos no código-fonte.
+Projeto de estudo/portfólio, utilizando o ambiente sandbox do Ethereal Email (sem disparo de e-mails reais para a internet) (`.env`, não incluído no repositório) e nunca ficam expostos no código-fonte.
